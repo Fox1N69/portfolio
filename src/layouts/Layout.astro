@@ -21,8 +21,10 @@ const { title } = Astro.props;
   </body>
 </html>
 <style is:global>
+  @import url("https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap");
+  @import url("https://fonts.cdnfonts.com/css/uni-neue");
   :root {
-    --accent: #3D56F7;
+    --accent: #3d56f7;
     --accent-light: 224, 204, 250;
     --accent-dark: 49, 10, 101;
     --accent-gradient: linear-gradient(
@@ -31,6 +33,10 @@ const { title } = Astro.props;
       rgb(var(--accent-light)) 30%,
       white 60%
     );
+    --font-family: "Zen Maru Gothic", sans-serif;
+    --second-family: "Uni Neue-Trial", sans-serif;
+    --third-family: "Bakemono Stereo Trial", sans-serif;
+    --font3: "Mona Sans", sans-serif;
   }
 
   * {
