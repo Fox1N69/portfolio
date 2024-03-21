@@ -3,23 +3,33 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="info">
-  <div class="flex border w-[1070px] h-[413px] mt-[80px] gap-28">
+  <div class="flex min-w-[1070px] mt-[80px] gap-28">
     <img src="" alt="" class="w-[371px] h-[413px]" />
-    <div class="info__content flex flex-col">
-      <h1 class="info__title text-7xl">Software Engineer</h1>
+    <div class="info__content flex flex-col mt-[85px]">
+      <h1 class="info__title">Software Engineer</h1>
       <h2 class="info__description text-lg">
         Hello! My name is Pavel Maksimovich. I'm a masturbator programmer. I
         need money.
       </h2>
+      <div class="info__button">
+        <button></button>
+        <i></i>
+        <i></i>
+      </div>
     </div>
   </div>
 </Layout>
 
-<style scoped>
+<style scoped lang="scss">
   .info__title {
-    text-shadow: inset 2px 2px 3px 0 rgba(241, 241, 241, 0.3);
+    color: #222;
+
+    text-shadow: 2px 2px 3px 0 rgba(241, 241, 241, 0.3);
+
     font-weight: 900;
-    font-family: var(--font-family);
+    font-size: 70px;
+    letter-spacing: 0;
+    font-family: var(--second-family);
   }
 
   .info__content {
