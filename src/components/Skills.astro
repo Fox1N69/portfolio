@@ -4,20 +4,23 @@ import "@assets/styles/global.scss";
 ---
 
 <Layout title="Skills">
-  <div class="skills rounded-lg w-[1067px] h-[105px]">
-    <div class="skills__content flex gap-[50px]">
-      <div class="skills__title text-accent text-3">My skills</div>
-    </div>
+  <div class="skills__content flex gap-[50px] items-center">
+    <div class="skills__title text-accent text-3">My skills</div>
+    <ul class="flex gap-3">
+      <img src="ts.svg" alt="typescript" />
+      <img src="js.svg" alt="javascript" />
+      <img src="go.png" alt="golang" />
+      <img src="sass.svg" alt="sass" />
+      <img src="tailwind.svg" alt="tailwind" />
+      <img src="nuxt.svg" alt="nuxt" />
+      <img src="docker.png" alt="docker" />
+      <img src="postg.svg" alt="postgres" />
+      <img src="k8s.png" alt="k8s" />
+    </ul>
   </div>
 </Layout>
 
 <style lang="scss">
-  .skills {
-    box-shadow: 0 0 10px 2px rgba(54, 81, 255, 0.6);
-    background: #fefefe;
-  }
-
-
   .skills__content {
     .skills__title {
       font-family: "Uni";

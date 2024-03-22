@@ -8,15 +8,16 @@ export default {
     },
     fontSize: {
       "2xl": ["25px", "1"],
-      "3": ["30px", '1'],
+      3: ["30px", "1"],
       "7xl": ["70px", "1"],
     },
     gap: {
+      3: "30px",
       7: "77px",
       11: "110px",
     },
     fontFamily: {
-      "uni": "Uni-Neue", 
+      uni: "Uni-Neue",
     },
   },
   plugins: [],
