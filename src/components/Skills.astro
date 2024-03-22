@@ -1,9 +1,25 @@
 ---
-import Layout from "../layouts/Layout.astro"
+import Layout from "../layouts/Layout.astro";
+import "../assets/styles/_variabel.scss";
 ---
 
 <Layout title="Skills">
-  <div class="skills border w-full">
-
+  <div class="skills rounded-lg w-[1067px] h-[105px]">
+    <div class="skills__content flex gap-[50px]">
+      <div class="skills__title text-accent text-3">My skills</div>
+    </div>
   </div>
 </Layout>
+
+<style lang="scss" scoped>
+  .skills {
+    box-shadow: 0 0 10px 2px rgba(54, 81, 255, 0.6);
+    background: #fefefe;
+  }
+
+  .skills__content {
+    .skills__title {
+      font-weight: bold;
+    }
+  }
+</style>
