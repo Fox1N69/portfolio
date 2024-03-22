@@ -16,7 +16,7 @@ export default {
       11: "110px",
     },
     fontFamily: {
-      "uni": "UniNeue-Trial", 
+      "uni": "Uni-Neue", 
     },
   },
   plugins: [],

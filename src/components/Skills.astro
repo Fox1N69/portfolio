@@ -1,6 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import "../assets/styles/_variabel.scss";
+import "@assets/styles/global.scss";
 ---
 
 <Layout title="Skills">
@@ -11,14 +11,16 @@ import "../assets/styles/_variabel.scss";
   </div>
 </Layout>
 
-<style lang="scss" scoped>
+<style lang="scss">
   .skills {
     box-shadow: 0 0 10px 2px rgba(54, 81, 255, 0.6);
     background: #fefefe;
   }
 
+
   .skills__content {
     .skills__title {
+      font-family: "Uni";
       font-weight: bold;
     }
   }
